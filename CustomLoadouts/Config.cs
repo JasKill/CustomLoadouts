@@ -5,11 +5,9 @@ namespace CustomLoadouts
 {
     public class Config : IConfig
     {
-        [Description("Плагин включен или нет.")]
+        [Description("Wether or not debug messages should be shown.")]
         public bool IsEnabled { get; set; } = false;
-        [Description("Использовать глобальный конфиг.")]
+        [Description("Whether to use the global config folder or not, defaults to true..")]
         public bool Cl_global { get; set; } = true;
-        [Description("Выдать предметы в зависимости от уровня игрока?")]
-        public bool Cl_levelsystem { get; set; } = false;
     }
 }

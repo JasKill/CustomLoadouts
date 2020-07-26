@@ -6,7 +6,6 @@ using System.Linq;
 using System;
 using Exiled.API.Features;
 using MEC;
-using Exiled.API.Extensions;
 
 namespace CustomLoadouts.EventHandlers
 {
@@ -29,7 +28,7 @@ namespace CustomLoadouts.EventHandlers
                     JProperty[] permissionNodes = loadouts.Properties().ToArray();
                     foreach (JProperty permissionNode in permissionNodes)
                     {
-                        if (ev.Player.CheckPermission("customloadouts." + permissionNode.Name) || (plugin.Config.Cl_levelsystem && ev.Player.RankName.StartsWith(permissionNode.Name)))
+                        if (ev.Player.CheckPermission("customloadouts." + permissionNode.Name))
                         {
                             try
                             {
