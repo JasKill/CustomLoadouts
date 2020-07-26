@@ -4,7 +4,7 @@ Update for EXILED(2.0.7)
 
 ## Installation
 
-Put CustomLoadouts.dll in EXILED\Plugins.
+Put CustomLoadouts.dll in EXILED\Plugins adn Newtonsoft.Json.dll in EXILED\Plugins\dependencies.
 
 ## Config
 
