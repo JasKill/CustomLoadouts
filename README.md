@@ -35,21 +35,21 @@ customloadouts:
                 # All weapons spawn with one mag/clip loaded which cannot be removed, giving ammo adds the ammo directly to the player instead of spawning it as an item in their inventory.
                 - COIN # This example has a 50% chance to spawn a coin to all players with the customloadouts.donatorloadouts permission node
             - 10:
-                - MEDKIT
+                - Medkit
         SCIENTIST:
             - 10:
                 # Starts with REMOVEITEMS to clear the default inventory before the items are added.
                 - REMOVEITEMS
-                - MAJOR_SCIENTIST_KEYCARD
+                - KeycardScientistMajor
                 - MEDKIT
             - 5:
                 - REMOVEITEMS
                 - REMOVEAMMO
-                - USP
-                - DROPPED_9
-                - DROPPED_9
-                - MAJOR_SCIENTIST_KEYCARD
-                - MEDKIT
+                - GunUSP
+                - Ammo9mm
+                - Ammo9mm
+                - KeycardScientistMajor
+                - Medkit
     moderatorloadouts:
         CLASSD:
             - 30:
